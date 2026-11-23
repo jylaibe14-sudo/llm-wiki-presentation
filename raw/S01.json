@@ -1,0 +1,24 @@
+{
+  "id": "S01",
+  "slug": "transformer-paper",
+  "title": "Attention Is All You Need",
+  "authors": "Ashish Vaswani 等",
+  "year": 2017,
+  "type": "研究論文",
+  "url": "https://arxiv.org/abs/1706.03762",
+  "tags": [
+    "Transformer",
+    "LLM"
+  ],
+  "summary": "提出以注意力機制為核心的 Transformer 架構，不再依賴循環神經網路來建構序列轉換模型。",
+  "findings": [
+    "Transformer 使用注意力機制建模序列中不同位置的關係。",
+    "相較以循環計算為主的早期架構，Transformer 的設計更有利於平行化訓練。",
+    "這篇論文說明模型架構，不能直接證明任何生成內容一定正確。"
+  ],
+  "caution": "Transformer 是架構概念；本次教學使用它來解釋模型如何處理語言，不把它等同於事實查證機制。",
+  "related": [
+    "llm",
+    "transformer"
+  ]
+}

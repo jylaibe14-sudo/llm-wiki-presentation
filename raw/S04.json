@@ -1,0 +1,24 @@
+{
+  "id": "S04",
+  "slug": "ragas-evaluation",
+  "title": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+  "authors": "Shahul Es 等",
+  "year": 2023,
+  "type": "研究論文",
+  "url": "https://arxiv.org/abs/2309.15217",
+  "tags": [
+    "評估",
+    "RAG"
+  ],
+  "summary": "提出對 RAG 檢索與生成環節進行多面向、可不依賴人工標準答案的自動化評估框架。",
+  "findings": [
+    "RAG 評估需區分「檢索到的內容是否適切」與「回答是否忠於提供的內容」。",
+    "模型是否忠實引用上下文，不等同於外部世界的事實必然正確。",
+    "評估指標可輔助反覆調整 RAG 流程，不應取代人工查核。"
+  ],
+  "caution": "本作業採用忠實度／相關性／答案正確性作為教學框架；其中答案正確性通常仍需要可信標準答案或額外核對，不等同全是 RAGAS 原論文的無參考評估指標。",
+  "related": [
+    "evaluation",
+    "rag"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-23",
+  "platform": "Chromium via Python Playwright, static HTML/CSS/JS injection",
+  "checks": [
+    {
+      "name": "desktop horizontal overflow index",
+      "passed": true,
+      "detail": "1440px desktop"
+    },
+    {
+      "name": "JavaScript errors desktop index",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "wiki renders",
+      "passed": true,
+      "detail": "concept header is rendered"
+    },
+    {
+      "name": "wiki keyword search",
+      "passed": true,
+      "detail": "at least one matching Wiki concept"
+    },
+    {
+      "name": "wiki source details",
+      "passed": true,
+      "detail": "source detail opens"
+    },
+    {
+      "name": "desktop horizontal overflow wiki",
+      "passed": true,
+      "detail": "1440px desktop"
+    },
+    {
+      "name": "JavaScript errors desktop wiki",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "14 slides in data",
+      "passed": true,
+      "detail": "slide data array"
+    },
+    {
+      "name": "next button advances",
+      "passed": true,
+      "detail": "initial slide visible"
+    },
+    {
+      "name": "next button advances",
+      "passed": true,
+      "detail": "after clicking next, index is 02"
+    },
+    {
+      "name": "slide source links 01",
+      "passed": true,
+      "detail": "3 matches expected 3"
+    },
+    {
+      "name": "slide source links 02",
+      "passed": true,
+      "detail": "4 matches expected 4"
+    },
+    {
+      "name": "slide source links 03",
+      "passed": true,
+      "detail": "2 matches expected 2"
+    },
+    {
+      "name": "slide source links 04",
+      "passed": true,
+      "detail": "1 matches expected 1"
+    },
+    {
+      "name": "slide source links 05",
+      "passed": true,
+      "detail": "2 matches expected 2"
+    },
+    {
+      "name": "slide source links 06",
+      "passed": true,
+      "detail": "3 matches expected 3"
+    },
+    {
+      "name": "slide source links 07",
+      "passed": true,
+      "detail": "3 matches expected 3"
+    },
+    {
+      "name": "slide source links 08",
+      "passed": true,
+      "detail": "3 matches expected 3"
+    },
+    {
+      "name": "slide source links 09",
+      "passed": true,
+      "detail": "2 matches expected 2"
+    },
+    {
+      "name": "slide source links 10",
+      "passed": true,
+      "detail": "1 matches expected 1"
+    },
+    {
+      "name": "slide source links 11",
+      "passed": true,
+      "detail": "1 matches expected 1"
+    },
+    {
+      "name": "slide source links 12",
+      "passed": true,
+      "detail": "6 matches expected 6"
+    },
+    {
+      "name": "slide source links 13",
+      "passed": true,
+      "detail": "2 matches expected 2"
+    },
+    {
+      "name": "slide source links 14",
+      "passed": true,
+      "detail": "6 matches expected 6"
+    },
+    {
+      "name": "interactive quiz",
+      "passed": true,
+      "detail": "correct answer reveals feedback"
+    },
+    {
+      "name": "desktop horizontal overflow slides",
+      "passed": true,
+      "detail": "1440px desktop"
+    },
+    {
+      "name": "JavaScript errors desktop slides",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "workflow six nodes",
+      "passed": true,
+      "detail": "six process nodes"
+    },
+    {
+      "name": "desktop horizontal overflow workflow",
+      "passed": true,
+      "detail": "1440px desktop"
+    },
+    {
+      "name": "JavaScript errors desktop workflow",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile horizontal overflow index",
+      "passed": true,
+      "detail": "scrollWidth=390px, viewport=390px"
+    },
+    {
+      "name": "JavaScript errors mobile index",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile horizontal overflow wiki",
+      "passed": true,
+      "detail": "scrollWidth=390px, viewport=390px"
+    },
+    {
+      "name": "JavaScript errors mobile wiki",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile horizontal overflow slides",
+      "passed": true,
+      "detail": "scrollWidth=390px, viewport=390px"
+    },
+    {
+      "name": "JavaScript errors mobile slides",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile horizontal overflow workflow",
+      "passed": true,
+      "detail": "scrollWidth=390px, viewport=390px"
+    },
+    {
+      "name": "JavaScript errors mobile workflow",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": true,
+  "check_count": 38
+}

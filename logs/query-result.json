@@ -1,0 +1,44 @@
+{
+  "query": "RAG 評估",
+  "results": [
+    {
+      "id": "rag",
+      "title": "RAG：檢索增強生成",
+      "score": 15,
+      "sources": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "title": "回答品質與來源驗證",
+      "score": 12,
+      "sources": [
+        "S04",
+        "S03"
+      ]
+    },
+    {
+      "id": "llm-wiki",
+      "title": "LLM Wiki：會累積的知識庫",
+      "score": 2,
+      "sources": [
+        "S06",
+        "S04"
+      ]
+    },
+    {
+      "id": "llm",
+      "title": "大型語言模型 LLM",
+      "score": 0,
+      "sources": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    }
+  ],
+  "method": "keyword matching over maintained Wiki concept notes; transparent local demonstration, not semantic embeddings or real-time LLM API"
+}

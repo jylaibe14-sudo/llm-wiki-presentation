@@ -1,0 +1,24 @@
+{
+  "id": "S02",
+  "slug": "rag-original",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": "Patrick Lewis 等",
+  "year": 2020,
+  "type": "研究論文",
+  "url": "https://arxiv.org/abs/2005.11401",
+  "tags": [
+    "RAG",
+    "檢索"
+  ],
+  "summary": "探討將預訓練語言模型的參數化記憶與外部非參數化知識結合，支援知識密集型生成任務。",
+  "findings": [
+    "RAG 將檢索到的外部知識與語言模型生成步驟相結合。",
+    "原論文的非參數化記憶示例是以檢索器存取 Wikipedia 的密集向量索引。",
+    "研究報告在其測試任務上相較部分基線有改善，但不代表任何 RAG 系統都正確。"
+  ],
+  "caution": "RAG 的效果取決於資料、檢索器與生成模型；不可把論文中的結果泛化為零幻覺。",
+  "related": [
+    "rag",
+    "retrieval"
+  ]
+}

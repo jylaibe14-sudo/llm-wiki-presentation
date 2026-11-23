@@ -1,0 +1,25 @@
+{
+  "id": "S03",
+  "slug": "rag-survey",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": "Yunfan Gao 等",
+  "year": 2023,
+  "type": "研究綜述",
+  "url": "https://arxiv.org/abs/2312.10997",
+  "tags": [
+    "RAG",
+    "知識庫"
+  ],
+  "summary": "整理 RAG 從基礎到進階、模組化的演進，並將相關技術放在檢索、增強與生成等環節中理解。",
+  "findings": [
+    "RAG 借助外部資料庫補充語言模型的內部知識。",
+    "常見環節包括資料準備、檢索、將內容提供給模型，以及回覆生成。",
+    "綜述區分 Naive、Advanced 與 Modular RAG 的典型設計路線。"
+  ],
+  "caution": "本教學呈現的步驟是易懂的簡化流程，不代表所有 RAG 架構都固定使用相同步驟。",
+  "related": [
+    "rag",
+    "retrieval",
+    "llm-wiki"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "S06",
+  "slug": "karpathy-llm-wiki",
+  "title": "LLM Wiki (idea file)",
+  "authors": "Andrej Karpathy",
+  "year": 2026,
+  "type": "設計文件",
+  "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+  "tags": [
+    "LLM Wiki",
+    "工作流程"
+  ],
+  "summary": "提出讓 LLM 持續維護由 Markdown 組成的互相連結 Wiki，使每次新增資料都能改進既有知識，而非每次提問都從原始文件重新整理。",
+  "findings": [
+    "LLM Wiki 的核心是可持續更新的 Markdown 知識頁。",
+    "新增來源時，理想流程要更新既有概念頁、交叉連結與相互矛盾之處。",
+    "與傳統只在查詢時檢索片段的 RAG 相比，Wiki 強調持久且可審核的知識整理成果。"
+  ],
+  "caution": "這是一份工作方式提案而不是證明此方法必然優於 RAG 的對照實驗。此專案的資料匯入與交叉連結以可重現的人工核對摘要和程式建置示範，不宣稱執行自動化 LLM API。",
+  "related": [
+    "llm-wiki",
+    "evaluation"
+  ]
+}

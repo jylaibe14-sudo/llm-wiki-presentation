@@ -1,0 +1,24 @@
+{
+  "id": "S05",
+  "slug": "lost-in-middle",
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": "Nelson F. Liu 等",
+  "year": 2023,
+  "type": "研究論文",
+  "url": "https://arxiv.org/abs/2307.03172",
+  "tags": [
+    "長文本",
+    "檢索"
+  ],
+  "summary": "研究長輸入上下文中的資訊位置對模型表現的影響，發現部分測試設定下中間位置的資訊較不容易被有效利用。",
+  "findings": [
+    "在所測試的長文本任務中，答案線索的位置可能影響模型表現。",
+    "研究觀察到相關資訊位於開頭或結尾時，部分模型常有較好表現。",
+    "因此不能把「全部文件塞進 prompt」視為無須檢索及檢查的可靠替代方案。"
+  ],
+  "caution": "結果是研究模型與任務下的觀察，不應宣稱所有現代模型都必定出現相同程度的 U 型曲線。",
+  "related": [
+    "long-context",
+    "retrieval"
+  ]
+}

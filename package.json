@@ -1,0 +1,12 @@
+{
+  "name": "llm-wiki-class-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "query": "node scripts/query.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test:validator": "node scripts/check.mjs --inject-bad-ref"
+  }
+}
